@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
     software-properties-common \
     wget \
     curl \
+    libgbm1 \
     apt-utils 
 RUN add-apt-repository ppa:openjdk-r/ppa \
     && apt-get update \
